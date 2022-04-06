@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+* {
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+/*
+ #fp-nav ul.c_black li a span {
+    background: #1c1c1c;
+}
+#fp-nav ul.c_black li .fp-tooltip.right {
+    color: #1c1c1c;
+}
+*/
+#fp-nav.right {
+  right: 0;
+}
+
+#fp-nav ul li, .fp-slidesNav ul li {
+  display: block;
+  width: 40px;
+  height: 1px;
+  margin: 0 0 25px 0;
+  position: relative;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+  height: 2px;
+  width: 40px;
+  margin: 0;
+  border-radius: 0;
+}
+
+#fp-nav ul li a span {
+  height: 1px;
+  width: 26px;
+  border: 0;
+  background: #fff;
+  margin: 0;
+  left: auto;
+  right: 0;
+  top: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+#fp-nav ul li:hover a span {
+  width: 40px;
+  height: 1px;
+  margin: 0;
+}
+
+#fp-nav ul li .fp-tooltip.right {
+  right: 52px;
+  top: -8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dictionist #sec_01 {
+  background: url("/img/sec_bg01.png") no-repeat center;
+  background-size: cover;
+}
+.dictionist #sec_01 .pagew {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 100vh;
+}
+.dictionist #sec_01 .pagew .txt_box {
+  position: absolute;
+  right: 0;
+  bottom: 122px;
+  text-align: right;
+}
+.dictionist #sec_01 .pagew .txt_box .line {
+  margin-right: -11px;
+}
+.dictionist #sec_01 .pagew .txt_box .main_tit {
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 1.68;
+}
+.dictionist #sec_01 .pagew .txt_box .main_txt {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.59;
+}
+.dictionist #sec_01 .pagew .txt_box .logo img {
+  width: 87px;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
