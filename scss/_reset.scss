@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a{
@@ -17,15 +18,21 @@ ol,ul{
     color: #fff;
 }
 
-/*
+.pagew{
+    max-width: 1300px;
+    width: 100%;
+    margin:0 auto;
+    position: relative;
+    height: 100vh;
+}
+
  #fp-nav ul.c_black li a span {
     background: #1c1c1c;
 }
 #fp-nav ul.c_black li .fp-tooltip.right {
     color: #1c1c1c;
+    transition-delay: 0.5s;
 }
-*/
-
 #fp-nav.right{
     right: 0;
 }
@@ -67,4 +74,7 @@ ol,ul{
     top: -8px;
     font-size: 14px;
     font-weight: 500;
+}
+#fp-nav.fp-show-active a.active + .fp-tooltip{
+    transition: opacity 0s ease-in;
 }
