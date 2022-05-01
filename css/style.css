@@ -419,6 +419,133 @@ ol, ul {
   background: url("/img/sec_bg04.png") no-repeat center;
   background-size: cover;
 }
+.dictionist #sec_04 .pagew {
+  max-width: 1236px;
+  margin: 0 auto;
+}
+.dictionist #sec_04 .pagew .tit {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 337px;
+  padding-bottom: 20px;
+}
+.dictionist #sec_04 .pagew .plus {
+  text-align: center;
+  position: relative;
+  top: 80px;
+  opacity: 0;
+}
+.dictionist #sec_04 .pagew .line.l {
+  width: 164px;
+  border-bottom: 2px dashed #fff;
+  position: absolute;
+  left: 405px;
+  top: 480px;
+  opacity: 0;
+  display: block;
+}
+.dictionist #sec_04 .pagew .line.r {
+  width: 164px;
+  border-bottom: 2px dashed #fff;
+  position: absolute;
+  right: 405px;
+  top: 480px;
+  opacity: 0;
+}
+.dictionist #sec_04 .pagew .sec04_box {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.dictionist #sec_04 .pagew .sec04_box .txt1 {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  opacity: 0;
+}
+.dictionist #sec_04 .pagew .sec04_box .txt1 .txt_remove, .dictionist #sec_04 .pagew .sec04_box .txt1 .txt_move {
+  display: inline-block;
+}
+.dictionist #sec_04 .pagew .sec04_box .txt2 {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  opacity: 0;
+}
+.dictionist #sec_04 .pagew .sec04_box .txt3 {
+  font-size: 17px;
+  font-weight: bold;
+  opacity: 0;
+}
+
+.dictionist #sec_04.section.active .sec04_l .txt1 {
+  animation: txt_up 0.8s ease-in-out 0.3s forwards;
+}
+
+.dictionist #sec_04.section.active .sec04_l .txt2 {
+  animation: txt_up 0.8s ease-in-out 0.5s forwards;
+}
+
+.dictionist #sec_04.section.active .sec04_l .txt3 {
+  animation: txt_up 0.8s ease-in-out 0.5s forwards;
+}
+
+.dictionist #sec_04.section.active .sec04_r .txt1 {
+  animation: txt_up 0.8s ease-in-out 1.2s forwards;
+}
+
+.dictionist #sec_04.section.active .sec04_r .txt2 {
+  animation: txt_up 0.8s ease-in-out 1.4s forwards;
+}
+
+.dictionist #sec_04.section.active .sec04_r .txt3 {
+  animation: txt_up 0.8s ease-in-out 1.4s forwards;
+}
+
+.dictionist #sec_04.section.active .plus {
+  animation: txt_up 0.8s ease-in-out 3s forwards;
+}
+
+.dictionist #sec_04.section.active .line.l {
+  animation: line 2s ease-in-out 3.5s forwards;
+}
+
+.dictionist #sec_04.section.active .line.r {
+  animation: line2 2s ease-in-out 3.5s forwards;
+}
+
+.dictionist #sec_04.section .line_wrap {
+  animation: line3 1.2s ease-in-out 8.5s forwards;
+}
+
+.dictionist #sec_04.section .line_wrap.w2 {
+  animation: line4 1.2s ease-in-out 8.5s forwards;
+}
+
+.dictionist #sec_04.section.active .txt_box.b1 {
+  animation: txt_down 1s ease-in-out 6s forwards;
+}
+
+.dictionist #sec_04.section.active .txt_box.b2 {
+  animation: txt_down 1s ease-in-out 7s forwards;
+}
+
+.dictionist #sec_04.section.active .txt_remove {
+  animation: txt_down 0.8s ease-in-out 8s forwards;
+}
+
+.dictionist #sec_04.section.active .txt_move.m1 {
+  animation: txt_move 1.5s ease-in-out 9s forwards;
+}
+
+.dictionist #sec_04.section.active .txt_move.m2 {
+  animation: txt_move2 1.5s ease-in-out 9s forwards;
+}
+
+.dictionist #sec_04.section.active .plus_wrap {
+  animation: txt_down 0.8s ease-in-out 8.8s forwards;
+}
 
 .dictionist #sec_05 {
   background: url("/img/sec_bg04_2.png") no-repeat center;
@@ -591,13 +718,14 @@ ol, ul {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   padding: 41px 88px 19px;
 }
 .dictionist #sec_07 .sec07_wrap .sec07_r .box_wrap {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   padding: 31px 0;
+  width: 100%;
 }
 .dictionist #sec_07 .sec07_wrap .sec07_r .box_wrap ul {
   display: flex;
@@ -607,7 +735,7 @@ ol, ul {
   position: relative;
 }
 .dictionist #sec_07 .sec07_wrap .sec07_r .box_wrap ul li {
-  width: 46%;
+  width: 46.7%;
   position: relative;
 }
 .dictionist #sec_07 .sec07_wrap .sec07_r .box_wrap ul li .sec07_img {
@@ -633,7 +761,7 @@ ol, ul {
   top: -7px;
 }
 .dictionist #sec_07 .sec07_wrap .sec07_r .box_wrap ul li .txt_box {
-  height: auto;
+  height: 140px;
   border-top: 1px solid #000;
   border-bottom: 1px dashed rgba(51, 51, 51, 0.5);
   padding-top: 18px;
@@ -813,6 +941,62 @@ ol, ul {
   }
   100% {
     background-position-x: 80;
+  }
+}
+@keyframes line {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-3%);
+    opacity: 1;
+  }
+}
+@keyframes line2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(3%);
+    opacity: 1;
+  }
+}
+@keyframes txt_down {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+}
+@keyframes line3 {
+  0% {
+    transform: translateX(-3%);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+}
+@keyframes line4 {
+  0% {
+    transform: translateX(3%);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+}
+@keyframes txt_move {
+  100% {
+    transform: translateX(183%);
+  }
+}
+@keyframes txt_move2 {
+  100% {
+    transform: translateX(-500%);
   }
 }
 
