@@ -48,7 +48,7 @@
 
 //sec02
 .dictionist #sec_02{
-    background: url('/img/sec_bg02.png') no-repeat center;
+    background: url('../img/sec_bg02.png') no-repeat center;
     background-size: cover;
     position: relative;
 
@@ -65,17 +65,17 @@
         transition: opacity 1s;
     }
     .ho_bg:nth-child(1).on{
-        background: url('/img/h_img1.png') no-repeat center;
+        background: url('../img/h_img1.png') no-repeat center;
         background-size: 100% 100%;
     }
 
     .ho_bg:nth-child(2).on{
-        background: url('/img/h_img2.png') no-repeat center;
+        background: url('../img/h_img2.png') no-repeat center;
         background-size: 100% 100%;
     }
 
     .ho_bg:nth-child(3).on{
-        background: url('/img/h_img3.png') no-repeat center;
+        background: url('../img/h_img3.png') no-repeat center;
         background-size: 100% 100%;
     }
 
@@ -147,7 +147,7 @@
                         font-weight: bold;
                         line-height: 2.8;
                         color: #fff;
-                        background: url('/img/mo_txt_bg.png') no-repeat center;
+                        background: url('../img/mo_txt_bg.png') no-repeat center;
                         background-size: 426px 62px;
                         margin-top: -5px;
                     }
@@ -249,7 +249,7 @@
 
 //sec03
 .dictionist #sec_03{
-    background: url('/img/sec_bg_03.png') no-repeat center;
+    background: url('../img/sec_bg_03.png') no-repeat center;
     background-size: cover;
 
     .sec03_tit{
@@ -283,19 +283,19 @@
                 position: relative;
 
                 &.c1{
-                    background: url('/img/mo_vegan.png') no-repeat center;
+                    background: url('../img/mo_vegan.png') no-repeat center;
                 }
                 &.c2{
-                    background: url('/img/animal.png') no-repeat center;
+                    background: url('../img/animal.png') no-repeat center;
                 }
                 &.c3{
-                    background: url('/img/Eco.png') no-repeat center;
+                    background: url('../img/Eco.png') no-repeat center;
                 }
                 &.c4{
-                    background: url('/img/nontoxic.png') no-repeat center;
+                    background: url('../img/nontoxic.png') no-repeat center;
                 }
                 &.c5{
-                    background: url('/img/study.png') no-repeat center;
+                    background: url('../img/study.png') no-repeat center;
                 }
 
                .loader-svg{
@@ -326,7 +326,7 @@
                 display: block;
                 text-align: center;
                 width: 246px;
-                background: url('/img/point_txt.png') no-repeat center top;
+                background: url('../img/point_txt.png') no-repeat center top;
                padding-top: 25px;
             }   
         }  
@@ -356,7 +356,7 @@
 
 //sec04
 .dictionist #sec_04{
-    background: url('/img/sec_bg04.png') no-repeat center;
+    background: url('../img/sec_bg04.png') no-repeat center;
     background-size: cover;
 
     .pagew{
@@ -486,7 +486,7 @@
 
 //sec05
 .dictionist #sec_05{
-    background: url('/img/sec_bg04_2.png') no-repeat center;
+    background: url('../img/sec_bg04_2.png') no-repeat center;
     background-size: cover;
 
     .pagew{
@@ -538,7 +538,7 @@
 
 
         .sec06_l{
-            background: url('/img/sec_bg04_3_l.png') no-repeat center;
+            background: url('../img/sec_bg04_3_l.png') no-repeat center;
             width: 50%;
             background-size: cover;
             display: flex;
@@ -547,7 +547,7 @@
             flex-flow: column;
         }
         .sec06_r{
-            background: url('/img/sec_bg04_3_r.png') no-repeat center;
+            background: url('../img/sec_bg04_3_r.png') no-repeat center;
             width: 50%;
             background-size: cover;
             display: flex;
@@ -626,7 +626,7 @@
         .sec07_l{
             width: 50%;
             height: 100%;
-            background: url('/img/sec_bg05.png') no-repeat center;
+            background: url('../img/sec_bg05.png') no-repeat center;
             background-size: 120% 100%;
 
             .sec07_inner{
@@ -792,7 +792,7 @@
         text-align: center;
     }
     .swiper-button-prev{
-        background:url('/img/sd_left.png') no-repeat left;
+        background:url('../img/sd_left.png') no-repeat left;
         left: 110px;
         opacity:0.2;
         transition: opacity 0.5s;
@@ -803,7 +803,7 @@
 
     }
     .swiper-button-next{
-        background:url('/img/sd_right.png') no-repeat right;
+        background:url('../img/sd_right.png') no-repeat right;
         right: 110px;
         opacity:0.2;
         transition: opacity 0.5s;

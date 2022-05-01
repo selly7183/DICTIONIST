@@ -127,7 +127,7 @@ ol, ul {
 }
 
 .dictionist #sec_02 {
-  background: url("/img/sec_bg02.png") no-repeat center;
+  background: url("../img/sec_bg02.png") no-repeat center;
   background-size: cover;
   position: relative;
 }
@@ -144,15 +144,15 @@ ol, ul {
   transition: opacity 1s;
 }
 .dictionist #sec_02 .ho_bg:nth-child(1).on {
-  background: url("/img/h_img1.png") no-repeat center;
+  background: url("../img/h_img1.png") no-repeat center;
   background-size: 100% 100%;
 }
 .dictionist #sec_02 .ho_bg:nth-child(2).on {
-  background: url("/img/h_img2.png") no-repeat center;
+  background: url("../img/h_img2.png") no-repeat center;
   background-size: 100% 100%;
 }
 .dictionist #sec_02 .ho_bg:nth-child(3).on {
-  background: url("/img/h_img3.png") no-repeat center;
+  background: url("../img/h_img3.png") no-repeat center;
   background-size: 100% 100%;
 }
 .dictionist #sec_02 .sec02_wrap {
@@ -220,7 +220,7 @@ ol, ul {
   font-weight: bold;
   line-height: 2.8;
   color: #fff;
-  background: url("/img/mo_txt_bg.png") no-repeat center;
+  background: url("../img/mo_txt_bg.png") no-repeat center;
   background-size: 426px 62px;
   margin-top: -5px;
 }
@@ -316,7 +316,7 @@ ol, ul {
 }
 
 .dictionist #sec_03 {
-  background: url("/img/sec_bg_03.png") no-repeat center;
+  background: url("../img/sec_bg_03.png") no-repeat center;
   background-size: cover;
 }
 .dictionist #sec_03 .sec03_tit {
@@ -348,19 +348,19 @@ ol, ul {
   position: relative;
 }
 .dictionist #sec_03 ul li .promise_circle.c1 {
-  background: url("/img/mo_vegan.png") no-repeat center;
+  background: url("../img/mo_vegan.png") no-repeat center;
 }
 .dictionist #sec_03 ul li .promise_circle.c2 {
-  background: url("/img/animal.png") no-repeat center;
+  background: url("../img/animal.png") no-repeat center;
 }
 .dictionist #sec_03 ul li .promise_circle.c3 {
-  background: url("/img/Eco.png") no-repeat center;
+  background: url("../img/Eco.png") no-repeat center;
 }
 .dictionist #sec_03 ul li .promise_circle.c4 {
-  background: url("/img/nontoxic.png") no-repeat center;
+  background: url("../img/nontoxic.png") no-repeat center;
 }
 .dictionist #sec_03 ul li .promise_circle.c5 {
-  background: url("/img/study.png") no-repeat center;
+  background: url("../img/study.png") no-repeat center;
 }
 .dictionist #sec_03 ul li .promise_circle .loader-svg {
   stroke: #3d3d3d;
@@ -387,7 +387,7 @@ ol, ul {
   display: block;
   text-align: center;
   width: 246px;
-  background: url("/img/point_txt.png") no-repeat center top;
+  background: url("../img/point_txt.png") no-repeat center top;
   padding-top: 25px;
 }
 
@@ -416,7 +416,7 @@ ol, ul {
 }
 
 .dictionist #sec_04 {
-  background: url("/img/sec_bg04.png") no-repeat center;
+  background: url("../img/sec_bg04.png") no-repeat center;
   background-size: cover;
 }
 .dictionist #sec_04 .pagew {
@@ -548,7 +548,7 @@ ol, ul {
 }
 
 .dictionist #sec_05 {
-  background: url("/img/sec_bg04_2.png") no-repeat center;
+  background: url("../img/sec_bg04_2.png") no-repeat center;
   background-size: cover;
 }
 .dictionist #sec_05 .pagew {
@@ -593,7 +593,7 @@ ol, ul {
   text-align: center;
 }
 .dictionist #sec_06 .sec06_wrap .sec06_l {
-  background: url("/img/sec_bg04_3_l.png") no-repeat center;
+  background: url("../img/sec_bg04_3_l.png") no-repeat center;
   width: 50%;
   background-size: cover;
   display: flex;
@@ -602,7 +602,7 @@ ol, ul {
   flex-flow: column;
 }
 .dictionist #sec_06 .sec06_wrap .sec06_r {
-  background: url("/img/sec_bg04_3_r.png") no-repeat center;
+  background: url("../img/sec_bg04_3_r.png") no-repeat center;
   width: 50%;
   background-size: cover;
   display: flex;
@@ -679,7 +679,7 @@ ol, ul {
 .dictionist #sec_07 .sec07_wrap .sec07_l {
   width: 50%;
   height: 100%;
-  background: url("/img/sec_bg05.png") no-repeat center;
+  background: url("../img/sec_bg05.png") no-repeat center;
   background-size: 120% 100%;
 }
 .dictionist #sec_07 .sec07_wrap .sec07_l .sec07_inner {
@@ -820,7 +820,7 @@ ol, ul {
   text-align: center;
 }
 .dictionist #sec_08 .swiper-button-prev {
-  background: url("/img/sd_left.png") no-repeat left;
+  background: url("../img/sd_left.png") no-repeat left;
   left: 110px;
   opacity: 0.2;
   transition: opacity 0.5s;
@@ -829,7 +829,7 @@ ol, ul {
   opacity: 1;
 }
 .dictionist #sec_08 .swiper-button-next {
-  background: url("/img/sd_right.png") no-repeat right;
+  background: url("../img/sd_right.png") no-repeat right;
   right: 110px;
   opacity: 0.2;
   transition: opacity 0.5s;
