@@ -89,7 +89,7 @@ ol, ul {
 }
 
 .dictionist #sec_01 {
-  background: url("/img/sec_bg01.png") no-repeat center;
+  background: url("../img/sec_bg01.png") no-repeat center;
   background-size: cover;
 }
 .dictionist #sec_01 .txt_box {
