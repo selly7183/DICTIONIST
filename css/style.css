@@ -705,7 +705,7 @@ ol, ul {
   opacity: 0;
 }
 .dictionist #sec_07 .sec07_wrap .sec07_l .sec07_inner .sec07_l_box .sec07_l_txt {
-  font: 17px;
+  font-size: 17px;
   font-weight: 300;
   line-height: 1.59;
   color: #000;
@@ -761,7 +761,7 @@ ol, ul {
   top: -7px;
 }
 .dictionist #sec_07 .sec07_wrap .sec07_r .box_wrap ul li .txt_box {
-  height: 140px;
+  height: 175px;
   border-top: 1px solid #000;
   border-bottom: 1px dashed rgba(51, 51, 51, 0.5);
   padding-top: 18px;
@@ -769,6 +769,7 @@ ol, ul {
 .dictionist #sec_07 .sec07_wrap .sec07_r .box_wrap ul li .txt_box .sec07_txt {
   font-size: 16px;
   color: #242424;
+  word-break: keep-all;
 }
 .dictionist #sec_07 .sec07_wrap .sec07_r .box_wrap ul li .txt_box .txt_ad {
   font-size: 12px;
